@@ -1,0 +1,117 @@
+*{ margin: 0; padding: 0 }
+
+p.menu {
+    color: #ffffff80;
+    font-weight: 700;
+    margin: 0;
+    padding: 8px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+p.menu:hover {
+    color: white;
+}
+
+img.anh {
+    width: 150px;
+    border-radius: 50%;
+    border: 8px solid #ffffff6e;
+}
+
+header {
+    background: var(--main);
+    width: 15%;
+    height: 100%;
+}
+
+li i {
+    margin-right: 8px;
+}
+
+.icon4 i {
+    font-size: 48px;
+    color: var(--gr);
+    margin-right: 12px;
+    margin-top: 24px;
+}
+
+.icon4 i:hover {
+    color: var(--main);
+}
+
+p.thoigian {
+    color: var(--main);
+}
+
+.tieudeto {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.tieude2 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.icon1 i {
+    background: #495057;
+    width: 64px;
+    height: 64px;
+    color: white;
+    font-size: 21px;
+    text-align: center;
+    line-height: 64px;
+    border-radius: 50%;
+    margin-right: 16px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.icon1 i:hover {
+    background: var(--main);
+}
+
+.tieudenho {
+    color: var(--gr);
+}
+
+a.link {
+    color: var(--main);
+}
+
+p, li {
+    color: var(--gr);
+    font-family: 'Muli', sans-serif;
+}
+
+li {
+    list-style: none;
+    margin-left: 16px;
+}
+
+p.mota1 {
+    font-size: 18px;
+    margin-top: 36px;
+    margin-bottom: 48px;
+}
+
+a.link:hover {
+    color: var(--main);
+}
+
+h1.tieude1 {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.tieude1 span {
+    color: var(--main);
+}
+
+body {
+    font-family: 'Saira Extra Condensed', sans-serif!important;
+    --main: #bd5d38!important;
+    --gr: #868e96!important;
+    padding-left: 15%;
+}
